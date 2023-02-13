@@ -6,3 +6,4 @@ This is a project written in python that eats a .gz archive with FASTQ data and 
 - Reads with Ns<br>
 - Ns per read sequence<br>
 - GC content average<br>
+Also added 3 .gz archives from hyperskill that I used
