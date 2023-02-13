@@ -1,8 +1,8 @@
 # pythoncore-read-quality-control
-This is a project written in python that eats a .gz archive with FASTQ data and processes it. Processing includes:
-Reads in the file
-Reads sequence average length 
-Repeats
-Reads with Ns
-Ns per read sequence
-GC content average
+This is a project written in python that eats a .gz archive with FASTQ data and processes it. Processing includes:<br>
+- Reads in the file<br>
+- Reads sequence average length<br>
+- Repeats<br>
+- Reads with Ns<br>
+- Ns per read sequence<br>
+- GC content average<br>
