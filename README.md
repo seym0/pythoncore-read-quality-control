@@ -6,4 +6,4 @@
 - Reads with Ns <br>
 - Ns per read sequence <br>
 - GC content average <br><br>
-Also added 3 .gz archives from hyperskill that I used
+Also added 3 .gz archives from Hyperskill that I used
