@@ -1,10 +1,4 @@
-# write your code here
 import gzip
-
-# path_to_archive1 = r'C:\Users\Liliana\Desktop\data1.gz'
-# path_to_archive2 = r'C:\Users\Liliana\Desktop\data2.gz'
-# path_to_archive3 = r'C:\Users\Liliana\Desktop\data3.gz'
-
 
 def unpack_gz(path_to_archive):
     with gzip.open(path_to_archive, mode='rt', encoding='utf-8') as f:
@@ -40,4 +34,3 @@ gc_cont_av = []
 for i in all_sequences:
     gc_cont_av.append(round((i.count('G') + i.count('C')) / len(i) * 100, 2))
 print(f'GC content average = {round(sum(gc_cont_av) / len(all_sequences), 2)}%')
-
